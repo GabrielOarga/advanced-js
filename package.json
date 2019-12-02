@@ -1,0 +1,37 @@
+{
+  "name": "advanced-js",
+  "version": "1.0.0",
+  "description": "The practical part of the Advanced JS tutorial as can seen on https://learn.tylermcginnis.com",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --display-error-details --config webpack/webpack.dev.js",
+    "build:prod": "webpack --display-error-details --config webpack/webpack.prod.js",
+    "build:dev": "webpack --display-error-details --config webpack/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielOarga/advanced-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielOarga/advanced-js/issues"
+  },
+  "homepage": "https://github.com/GabrielOarga/advanced-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-loader": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
