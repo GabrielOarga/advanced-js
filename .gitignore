@@ -1,0 +1,17 @@
+# Dependency directory
+node_modules/
+
+# Output directory
+build/
+
+# Coverage & Snapshot testing
+coverage/
+src/**/__snapshots__
+
+# IDE metadata
+
+# Mac files
+.DS_Store
+
+# Logs
+*.log%
